@@ -8,7 +8,7 @@ module.exports = defineConfig([
   expoConfig,
   {
     files: ["**/*.{js,jsx,ts,tsx}"],
-    ignores: ["node_modules", "dist", ".expo", "eslint.config.js"],
+    ignores: ["node_modules", "dist/*", ".expo", "eslint.config.js"],
 
     languageOptions: {
       parser: require("@typescript-eslint/parser"),
